@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable>
+    <storeData>
+        <name>$l10n_GlobalCompanyPlaceable_PlaceableDisplay_shopItem_small</name>
+        <functions>
+            <function>$l10n_GlobalCompanyPlaceable_PlaceableDisplay_function_small</function>
+        </functions>
+        <image>store_fermentingSilo.dds</image>
+        <price>2500</price>
+        <lifetime>1000</lifetime>
+        <dailyUpkeep>5</dailyUpkeep>
+        <rotation>0</rotation>
+        <brand>GCPLACEABLE</brand>
+        <species>placeable</species>
+        <category>globalCompanyPlaceable</category>
+        <vertexBufferMemoryUsage>180404</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>32964</indexBufferMemoryUsage>
+        <textureMemoryUsage>5680200</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <placeableType>GC_PlaceableDigitalDisplay</placeableType>
+    <filename>display_small.i3d</filename>
+    <placement testSizeX="3" testSizeZ="2" sizeX="2.5" sizeZ="1" useRandomYRotation="false" useManualYRotation="true" />
+
+    <digitalDisplays>
+        <digitalDisplay indexName="DigitalDisplaySmall" saveId="globalCompany_digitalDisplaySmall">
+            <lines num="1" />
+        </digitalDisplay>
+    </digitalDisplays>
+    
+    <tipOcclusionUpdateArea sizeX="2.5" sizeZ="1" />
+</placeable>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<l10n>
+    <elements>
+    <e k="GlobalCompanyPlaceable_PlaceableDisplay_shopItem_small" v="Kleines digitales Display"/>
+    <e k="GlobalCompanyPlaceable_PlaceableDisplay_function_small" v="Ausgabe eines Textes (frei definierbar) in einer Zeile."/>
+    <e k="GlobalCompanyPlaceable_PlaceableDisplay_shopItem_big" v="Großes digitales Display"/>
+    <e k="GlobalCompanyPlaceable_PlaceableDisplay_function_big" v="Ausgabe eines Textes (frei definierbar) in mehreren Zeilen."/>
+    </elements>
+</l10n>
