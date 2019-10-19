@@ -14,12 +14,14 @@
 
 
   <Materials>
-    <Material name="lambert1" materialId="4" customShaderId="4">
+    <Material name="lambert1" materialId="5" customShaderId="4">
       <Texture fileId="1"/>
       <Normalmap fileId="2"/>
       <Glossmap fileId="3"/>
       <CustomParameter name="uvScale" value="30 30 2 2"/>
       <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="4" diffuseColor="1 1 1 1">
     </Material>
   </Materials>
 
@@ -32,7 +34,10 @@
   </Dynamics>
 
   <Scene>
-    <Shape shapeId="1" name="pCube9" translation="0 2.49464e-07 8.7109e-05" static="true" nodeId="8" materialIds="4" castsShadows="true" receiveShadows="true"/>
+    <Shape shapeId="1" name="DigitalDisplaySmall" translation="0 2.49464e-07 8.7109e-05" static="true" nodeId="9" materialIds="5" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="Playertrigger" translation="0 1.3413 0.706898" static="true" trigger="true" collisionMask="1048576" nodeId="10" materialIds="4" nonRenderable="true" distanceBlending="false"/>
+      <TransformGroup name="line1" translation="-0.935104 2.37154 -0.00607091" nodeId="11"/>
+    </Shape>
   </Scene>
 
 </i3D>

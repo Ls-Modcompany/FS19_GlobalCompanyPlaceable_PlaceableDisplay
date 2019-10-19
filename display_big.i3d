@@ -21,6 +21,8 @@
       <CustomParameter name="uvScale" value="30 30 2 2"/>
       <CustomParameter name="colorScale" value="0.8 0.55 0.055 1"/>
     </Material>
+    <Material name="UnnamedMaterial" materialId="5" diffuseColor="1 1 1 1">
+    </Material>
   </Materials>
 
 
@@ -32,7 +34,15 @@
   </Dynamics>
 
   <Scene>
-    <Shape shapeId="1" name="pCube10" translation="3.3044 0.000424738 0.000441113" static="true" nodeId="9" materialIds="4" castsShadows="true" receiveShadows="true"/>
+    <Shape shapeId="1" name="DigitalDisplayBig" translation="0 0.000424738 0.000441113" static="true" nodeId="9" materialIds="4" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="Playertrigger" translation="0 1.3413 0.706898" static="true" trigger="true" collisionMask="1048576" nodeId="10" materialIds="5" nonRenderable="true" distanceBlending="false"/>
+      <TransformGroup name="line1" translation="-1.42 2.55 0" nodeId="11"/>
+      <TransformGroup name="line2" translation="-1.42 2.32 0" nodeId="12"/>
+      <TransformGroup name="line3" translation="-1.42 2.09 0" nodeId="13"/>
+      <TransformGroup name="line4" translation="-1.42 1.86 0" nodeId="14"/>
+      <TransformGroup name="line5" translation="-1.42 1.63 0" nodeId="15"/>
+      <TransformGroup name="line6" translation="-1.42 1.4 0" nodeId="16"/>
+    </Shape>
   </Scene>
 
 </i3D>

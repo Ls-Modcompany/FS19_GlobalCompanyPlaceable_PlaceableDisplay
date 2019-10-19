@@ -5,7 +5,7 @@
         <functions>
             <function>$l10n_GlobalCompanyPlaceable_PlaceableDisplay_function_small</function>
         </functions>
-        <image>store_fermentingSilo.dds</image>
+        <image>store_digitalDisplaySmall.dds</image>
         <price>2500</price>
         <lifetime>1000</lifetime>
         <dailyUpkeep>5</dailyUpkeep>
@@ -20,13 +20,20 @@
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
     </storeData>
 
-    <placeableType>GC_PlaceableDigitalDisplay</placeableType>
+    <placeableType>GC_PlaceableDigitalDisplayPlaceable</placeableType>
     <filename>display_small.i3d</filename>
     <placement testSizeX="3" testSizeZ="2" sizeX="2.5" sizeZ="1" useRandomYRotation="false" useManualYRotation="true" />
 
     <digitalDisplays>
         <digitalDisplay indexName="DigitalDisplaySmall" saveId="globalCompany_digitalDisplaySmall">
-            <lines num="1" />
+            <lines>
+                <line node="line1" />
+            </lines>
+            <playerTrigger playerTriggerNode="Playertrigger" />
+            <i3dMappings>
+                <i3dMapping id="Playertrigger" node="0"/>
+                <i3dMapping id="line1" node="1"/>
+            </i3dMappings>
         </digitalDisplay>
     </digitalDisplays>
     

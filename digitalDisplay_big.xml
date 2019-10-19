@@ -5,8 +5,8 @@
         <functions>
             <function>$l10n_GlobalCompanyPlaceable_PlaceableDisplay_function_big</function>
         </functions>
-        <image>store_fermentingSilo.dds</image>
-        <price>2500</price>
+        <image>store_digitalDisplayBig.dds</image>
+        <price>4500</price>
         <lifetime>1000</lifetime>
         <dailyUpkeep>5</dailyUpkeep>
         <rotation>0</rotation>
@@ -20,13 +20,30 @@
         <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
     </storeData>
 
-    <placeableType>GC_PlaceableDigitalDisplay</placeableType>
+    <placeableType>GC_PlaceableDigitalDisplayPlaceable</placeableType>
     <filename>display_big.i3d</filename>
     <placement testSizeX="4" testSizeZ="2" sizeX="3" sizeZ="1" useRandomYRotation="false" useManualYRotation="true" />
 
     <digitalDisplays>
         <digitalDisplay indexName="DigitalDisplayBig" saveId="globalCompany_digitalDisplayBig">
-            <lines num="5" />
+            <lines>
+                <line node="line1" />
+                <line node="line2" />
+                <line node="line3" />
+                <line node="line4" />
+                <line node="line5" />
+                <line node="line6" />
+            </lines>
+            <playerTrigger playerTriggerNode="Playertrigger" />
+            <i3dMappings>
+                <i3dMapping id="Playertrigger" node="0"/>
+                <i3dMapping id="line1" node="1"/>
+                <i3dMapping id="line2" node="2"/>
+                <i3dMapping id="line3" node="3"/>
+                <i3dMapping id="line4" node="4"/>
+                <i3dMapping id="line5" node="5"/>
+                <i3dMapping id="line6" node="6"/>
+            </i3dMappings>
         </digitalDisplay>
     </digitalDisplays>
     
