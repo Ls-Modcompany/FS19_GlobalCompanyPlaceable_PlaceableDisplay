@@ -5,7 +5,7 @@
         <functions>
             <function>$l10n_GlobalCompanyPlaceable_PlaceableDisplay_function_big</function>
         </functions>
-        <image>store_digitalDisplayBig.dds</image>
+        <image>store_displayBig.dds</image>
         <price>4500</price>
         <lifetime>1000</lifetime>
         <dailyUpkeep>5</dailyUpkeep>
