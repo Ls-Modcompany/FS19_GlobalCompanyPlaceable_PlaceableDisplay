@@ -27,7 +27,7 @@
     <digitalDisplays>
         <digitalDisplay indexName="DigitalDisplaySmall" saveId="globalCompany_digitalDisplaySmall">
             <lines>
-                <line node="line1" />
+                <line node="line1" lenght="1.07" />
             </lines>
             <playerTrigger playerTriggerNode="Playertrigger" />
             <i3dMappings>
