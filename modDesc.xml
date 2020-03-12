@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="44">
+<modDesc descVersion="47">
     <author>LsModcompany / kevink98</author>
     <version>1.0.0.0</version>
     <title>
@@ -7,12 +7,30 @@
         <de>GlobalCompany - Digitale Anzeige</de>
     </title>
     <description>
-        <en><![CDATA[
-        
+        <en><![CDATA[Placeable displays
+
+To change the text, go to the display and press the R button.    
+
+Display small:
+  - Number of lines: 1
+  - Price: 2.500 €
+
+Display big:
+  - Number of lines: 6
+  - Price: 4.500 €
 
 Information: Mod only playable in combination with GlobalCompany!]]></en>
-        <de><![CDATA[
-        
+        <de><![CDATA[Platzierbare Displays
+
+Um den Text zu ändern, laufe an das Display hin und drücke die Taste R.
+
+Display klein:
+  - Anzahl Zeilen: 1
+  - Kosten: 2.500 €
+
+Display groß:
+  - Anzahl Zeilen: 6
+  - Kosten: 4.500 €
 
 Information: Mod nur in Verbindung mit GlobalCompany spielbar!]]></de>
     </description>
@@ -31,5 +49,5 @@ Information: Mod nur in Verbindung mit GlobalCompany spielbar!]]></de>
     <brands>
         <brand name="GCPLACEABLE" title="GlobalCompany Placeable" image="../FS19_GlobalCompany/brand_placeable.dds"/>
     </brands>
-	<globalCompany minimumVersion="1.1.0.0" />
+	<globalCompany minimumVersion="1.2.1.0" />
 </modDesc>

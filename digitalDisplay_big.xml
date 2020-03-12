@@ -13,11 +13,6 @@
         <brand>GCPLACEABLE</brand>
         <species>placeable</species>
         <category>globalCompanyPlaceable</category>
-        <vertexBufferMemoryUsage>180404</vertexBufferMemoryUsage>
-        <indexBufferMemoryUsage>32964</indexBufferMemoryUsage>
-        <textureMemoryUsage>5680200</textureMemoryUsage>
-        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
-        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
     </storeData>
 
     <placeableType>GC_PlaceableDigitalDisplayPlaceable</placeableType>
@@ -27,12 +22,12 @@
     <digitalDisplays>
         <digitalDisplay indexName="DigitalDisplayBig" saveId="globalCompany_digitalDisplayBig">
             <lines>
-                <line node="line1" lenght="1.07" />
-                <line node="line2" lenght="1.07" />
-                <line node="line3" lenght="1.07" />
-                <line node="line4" lenght="1.07" />
-                <line node="line5" lenght="1.07" />
-                <line node="line6" lenght="1.07" />
+                <line node="line1" lenght="1.65" />
+                <line node="line2" lenght="1.65" />
+                <line node="line3" lenght="1.65" />
+                <line node="line4" lenght="1.65" />
+                <line node="line5" lenght="1.65" />
+                <line node="line6" lenght="1.65" />
             </lines>
             <playerTrigger playerTriggerNode="Playertrigger" />
             <i3dMappings>
